@@ -9,7 +9,7 @@ In this notebook, I will introduce several smoothing techniques commonly used in
 
 ## Laplacian (add-one) Smoothing
 Laplacian (add-one) smoothing:   
-$$ P_{add-1}(w_{i}|w_{i-1}) = \frac{C(w_{i-1}, w_{i}) + 1}{C(w_{i-1}) + |V|}$$  
+\begin{equation} P_{add-1}(w_{i}|w_{i-1}) = \frac{C(w_{i-1}, w_{i}) + 1}{C(w_{i-1}) + |V|} \end{equation} 
 **Core idea**: Pretend that we have seen each vocab at least once.  
 vocabs | counts | unsmoothed probability | laplacian (add-one) smoothing
 :-: | :-: | :-: | :-: 
