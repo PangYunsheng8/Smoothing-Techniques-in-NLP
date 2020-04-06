@@ -5,5 +5,5 @@ In this notebook, I will introduce several smoothing techniques commonly used in
 - Absolute Discounting
 - Katz Backoff
 - Kneser-Ney Smoothing
-- Interpolation
+- Interpolation  
 **For more detail, please move to the ipython notebook**
